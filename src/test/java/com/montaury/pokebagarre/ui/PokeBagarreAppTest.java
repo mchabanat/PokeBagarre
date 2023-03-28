@@ -109,6 +109,12 @@ class PokeBagarreAppTest {
         );
     }
 
+    /* Reste à traiter
+     - 2 pokemon qui ont la meme attaque mais défense différente
+     - 2 pokemon qui ont la meme défense mais attaque différente
+     - 2 pokemon qui ont la meme attaque et meme défense (selon celui qui est saisi en 1 ou 2)
+    */
+
     private static String getResultatBagarre(FxRobot robot) {
         return robot.lookup("#resultatBagarre").queryText().getText();
     }

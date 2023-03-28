@@ -17,9 +17,9 @@ javafx {
 
 test {
   useJUnitPlatform()
-  //systemProperties['java.awt.headless'] = true
-  //systemProperties['testfx.robot'] = 'glass'
-  //systemProperties['testfx.headless'] = 'true'
+  systemProperties['java.awt.headless'] = true
+  systemProperties['testfx.robot'] = 'glass'
+  systemProperties['testfx.headless'] = 'true'
 }
 
 dependencies {
